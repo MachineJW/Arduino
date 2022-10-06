@@ -1,0 +1,42 @@
+아두이노 언어
+
+아두이노는 C/C++언어 기반으로 작성하고, 표준 C와 일부 C ++의 모든 기능을 지원한다.
+
+구분 기호 : {} , ;
+주석 : //, /* */
+define : #define, #include
+산술 연산자 : +, -, *, /, %
+할당 연산자 : =
+비교 연산자 : ==, !=, <, >, <=, >=
+부울 연산자 : &&, ||, !
+포인터 연산자 : *, &
+비트와 쉬프트 연산자 : &, |, ^, , <<, >>
+증감 연산자 : ++, --
+결합 산술 연산자 : +=, -=, *=, /=, &=, |=
+조건 : if, if...else, switch case
+반복 : for, while, do... while
+분기 및 점프 : break, continue, return, goto
+
+변수: C++을 사용하므로 이 언어의 변수 사용과 같다.
+
+상수
+HIGH / LOW : 입출력 핀의 상태를 말하며, 디지털 회로의 논리 표현과 같다. LOW(논리 0, 0 V 근처), HIGH(논리 1, 높은 전압, 5 V 또는 3.3 V 논리 게이트 VCC 전압)
+INPUT / OUTPUT: 입출력의 방향으로 입력과 출력. INPUT (입력), OUTPUT(출력)
+true / false  : 논리의 부울
+
+변수 데이터 유형 및 C++ 클래스
+void, boolean, char, unsigned char, byte, int, unsigned int, word, long, unsigned long, float, double
+string, array
+
+형 변환 함수
+char(), byte(), int(), word(), long(), float()
+
+변수의 특성 정의 예약어
+static, volatile, const
+
+유틸리티
+sizeof() - C/C++에서 함수가 아니라 변수나 형의 크기를 측정하는 도구이다. 따라서 변수의 크기를 컴파일러가 알고 있기 때문에 바이트 단위로 변환한다. C/C++의 모든 정적 변수는 선언 시, 크기가 정해지기 때문이다.
+
+
+
+
